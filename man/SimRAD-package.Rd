@@ -8,8 +8,8 @@
 \tabular{ll}{
 Package: \tab SimRAD\cr
 Type: \tab Package\cr
-Version: \tab 0.93\cr
-Date: \tab 2014-01-27\cr
+Version: \tab 0.94\cr
+Date: \tab 2014-05-12\cr
 License: \tab GPL-2\cr
 }
 This package provides a number of functions to simulate restriction enzyme digestion (\code{\link{insilico.digest}}), library construction (\code{\link{adapt.select}}) and fragments size selection (\code{\link{size.select}}) to predict the number of loci expected from most of the Restriction site Associated DNA (RAD) and Genotyping By Sequencing (GBS) approaches. \cr Built with non-model species in mind, a function can simulate DNA sequence when no reference genome sequence is available (\code{\link{sim.DNAseq}}) providing genome size and CG content is known. Alternatively, reference genomic sequences can be used as an input (\code{\link{ref.DNAseq}}). SimRAD can accommodate various Reduced Representation Libraries methods that may combine single or double restriction enzyme digestion (RAD and GBS), fragment size selection (ddRAD and ezRAD) and restriction site based fragment exclusion (RESTseq).
@@ -18,12 +18,7 @@ This package provides a number of functions to simulate restriction enzyme diges
 Maintainer: Olivier Lepais <olepais@st-pee.inra.fr>
 }
 \references{
-Baird et al. 2008. Rapid SNP discovery and genetic mapping using sequenced RAD markers. PLoS ONE 3: e3376. doi:10.1371/journal.pone.0003376 \cr\cr
-Elshire et al. 2011. A robust, simple Genotyping-By-Sequencing (GBS) approach for high diversity species. PLoS ONE 6: e19379. doi:10.1371/journal.pone.0019379 \cr\cr
-Peterson et al. 2012. Double Digest RADseq: an inexpensive method for de novo SNP discovery and genotyping in model and non-model species. PLoS ONE 7: e37135. doi:10.1371/journal.pone.0037135 \cr\cr
-Poland et al. 2012. Development of high-density genetic maps for barley and wheat using a novel two-enzyme Genotyping-By-Sequencing approach. PLoS ONE 7: e32253. doi:10.1371/journal.pone.0032253 \cr\cr
-Stolle & Moritz 2013. RESTseq - Efficient benchtop population genomics with RESTriction fragment SEQuencing. PLoS ONE 8: e63960. doi:10.1371/journal.pone.0063960 \cr\cr
-Toonen et al. 2013. ezRAD: a simplified method for genomic genotyping in non-model organisms. PeerJ 1:e203 http://dx.doi.org/10.7717/peerj.203
+Lepais O & Weir JT. 2014. SimRAD: an R package for simulation-based prediction of the number of loci expected in RADseq and similar genotyping by sequencing approaches. Molecular Ecology Resources. DOI: 10.1111/1755-0998.12273.
 }
 
 \keyword{ package }

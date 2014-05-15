@@ -4,6 +4,7 @@ function(FASTA.file, subselect.contigs = TRUE, prop.contigs= 0.10){
   ref <- sread(ref)
   N <- length(ref)
   if(N == 1){
+    ref <- as.character(ref)
     return(ref)
   }
   if(N > 1 & subselect.contigs == FALSE){

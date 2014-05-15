@@ -29,6 +29,7 @@ An unlimited number of exclusion steps using different restriction enzyme can be
 A vector of DNA fragment sequences.
 }
 \references{
+Lepais O & Weir JT. 2014. SimRAD: an R package for simulation-based prediction of the number of loci expected in RADseq and similar genotyping by sequencing approaches. Molecular Ecology Resources. DOI: 10.1111/1755-0998.12273. \cr\cr
 Stolle & Moritz 2013. RESTseq - Efficient benchtop population genomics with RESTriction fragment SEQuencing. PLoS ONE 8: e63960. doi:10.1371/journal.pone.0063960
 }
 \author{

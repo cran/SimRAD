@@ -29,7 +29,9 @@ Contig sequences will be randomly concatenated to form a chimeric unique continu
 \value{
 A single continuous DNA sequence (character string).
 }
-
+\references{
+Lepais O & Weir JT. 2014. SimRAD: an R package for simulation-based prediction of the number of loci expected in RADseq and similar genotyping by sequencing approaches. Molecular Ecology Resources. DOI: 10.1111/1755-0998.12273.
+}
 \author{
 Olivier Lepais
 }

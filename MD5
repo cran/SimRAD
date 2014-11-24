@@ -1,13 +1,13 @@
-76169c126567eacf0446b4f53024cc2b *DESCRIPTION
+2984b39b07bae6e41700684229a73492 *DESCRIPTION
 12a0647520f516b5f3d3fd69b6e0fe2a *NAMESPACE
 573fee8353781b44314f6e0ed8b0771a *R/adapt.select.R
 dc7956a8e780910c43b9cb7fd68b34a2 *R/exclude.seqsite.R
-d8d0bcaf30844e807b683bc3e28dd535 *R/insilico.digest.R
+cd7987cd31bc264d98e3805493a3778c *R/insilico.digest.R
 df0e4345675b171a3e3f8c8c034d7ae3 *R/insilico.digest.internal.R
 bbb18313e8eb01303ad729848e83c7cd *R/ref.DNAseq.R
 31bfe43db3b84f2dea4ea030de7b8119 *R/sim.DNAseq.R
 36169eabf1a59a911878a19a001a5dbf *R/size.select.R
-0854a43f3af30e6ee1c409bb40c145c5 *man/SimRAD-package.Rd
+c4f996a5a4582bcf7095de04753a3d7b *man/SimRAD-package.Rd
 3c1ab05fae7dfc44c2277f1f5c483e08 *man/adapt.select.Rd
 e1cf307882433ceb9cf3ea6280b54f16 *man/exclude.seqsite.Rd
 7c1b0f7e02d73e43a2f6a5fe9c7796ea *man/insilico.digest.Rd

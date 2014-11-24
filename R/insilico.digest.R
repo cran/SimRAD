@@ -22,11 +22,11 @@ insilico.digest <- function (DNAseq, cut_site_5prime1, cut_site_3prime1, cut_sit
     RESULT <- unlist(RESULT)
     if(verbose == TRUE){
       if(cut_site_5prime2 == "NULL"){
-        cat("Number of restriction sites: ", length(matchPattern(recognition_code1, DNAseq)), "\n", sep="")
+        cat("Number of restriction sites: ", length(insilico.digest.internal(DNAseq, recognition_code1, cut_site_5prime1, cut_site_3prime1))-1, "\n", sep="")
       } 
       if(cut_site_5prime2 != "NULL" && cut_site_5prime3 == "NULL"){
-      cat("Number of restriction sites for the first enzyme: ", length(matchPattern(recognition_code1, DNAseq)), "\n", sep="")
-      cat("Number of restriction sites for the second enzyme: ", length(matchPattern(recognition_code2, DNAseq)), "\n", sep="")
+      cat("Number of restriction sites for the first enzyme: ", length(insilico.digest.internal(DNAseq, recognition_code1, cut_site_5prime1, cut_site_3prime1))-1, "\n", sep="")
+      cat("Number of restriction sites for the second enzyme: ", length(insilico.digest.internal(DNAseq, recognition_code2, cut_site_5prime2, cut_site_3prime2))-1, "\n", sep="")
       dig1 <- RESULT[isMatchingStartingAt(cut_site_3prime1, RESULT)]
       dg1 <- reverseComplement(DNAStringSet(dig1))
       re2match <- reverseComplement(DNAStringSet(cut_site_5prime2))
@@ -50,15 +50,15 @@ insilico.digest <- function (DNAseq, cut_site_5prime1, cut_site_3prime1, cut_sit
       cat("Number of type BB fragments:", length(RE2RE2.dig3), "\n", sep="")
       }
       if(cut_site_5prime3 != "NULL"){
-        cat("Number of restriction sites 1: ", length(matchPattern(recognition_code1, DNAseq)), "\n", sep="")
-        cat("Number of restriction sites 2: ", length(matchPattern(recognition_code2, DNAseq)), "\n", sep="")
-        cat("Number of restriction sites 3: ", length(matchPattern(recognition_code3, DNAseq)), "\n", sep="")        
+        cat("Number of restriction sites 1: ", length(insilico.digest.internal(DNAseq, recognition_code1, cut_site_5prime1, cut_site_3prime1))-1, "\n", sep="")
+        cat("Number of restriction sites 2: ", length(insilico.digest.internal(DNAseq, recognition_code2, cut_site_5prime2, cut_site_3prime2))-1, "\n", sep="")
+        cat("Number of restriction sites 3: ", length(insilico.digest.internal(DNAseq, recognition_code3, cut_site_5prime3, cut_site_3prime3))-1, "\n", sep="")        
       }
       if(cut_site_5prime4 != "NULL"){
-        cat("Number of restriction sites 1: ", length(matchPattern(recognition_code1, DNAseq)), "\n", sep="")
-        cat("Number of restriction sites 2: ", length(matchPattern(recognition_code2, DNAseq)), "\n", sep="")
-        cat("Number of restriction sites 3: ", length(matchPattern(recognition_code3, DNAseq)), "\n", sep="") 
-        cat("Number of restriction sites 4: ", length(matchPattern(recognition_code4, DNAseq)), "\n", sep="")               
+        cat("Number of restriction sites 1: ", length(insilico.digest.internal(DNAseq, recognition_code1, cut_site_5prime1, cut_site_3prime1))-1, "\n", sep="")
+        cat("Number of restriction sites 2: ", length(insilico.digest.internal(DNAseq, recognition_code2, cut_site_5prime2, cut_site_3prime2))-1, "\n", sep="")
+        cat("Number of restriction sites 3: ", length(insilico.digest.internal(DNAseq, recognition_code3, cut_site_5prime3, cut_site_3prime3))-1, "\n", sep="") 
+        cat("Number of restriction sites 4: ", length(insilico.digest.internal(DNAseq, recognition_code4, cut_site_5prime4, cut_site_3prime4))-1, "\n", sep="")               
       }            
     } 
     return(RESULT)

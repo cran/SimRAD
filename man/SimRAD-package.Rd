@@ -8,8 +8,8 @@
 \tabular{ll}{
 Package: \tab SimRAD\cr
 Type: \tab Package\cr
-Version: \tab 0.95\cr
-Date: \tab 2014-11-24\cr
+Version: \tab 0.96\cr
+Date: \tab 2015-11-04\cr
 License: \tab GPL-2\cr
 }
 This package provides a number of functions to simulate restriction enzyme digestion (\code{\link{insilico.digest}}), library construction (\code{\link{adapt.select}}) and fragments size selection (\code{\link{size.select}}) to predict the number of loci expected from most of the Restriction site Associated DNA (RAD) and Genotyping By Sequencing (GBS) approaches. \cr Built with non-model species in mind, a function can simulate DNA sequence when no reference genome sequence is available (\code{\link{sim.DNAseq}}) providing genome size and CG content is known. Alternatively, reference genomic sequences can be used as an input (\code{\link{ref.DNAseq}}). SimRAD can accommodate various Reduced Representation Libraries methods that may combine single or double restriction enzyme digestion (RAD and GBS), fragment size selection (ddRAD and ezRAD) and restriction site based fragment exclusion (RESTseq).
@@ -18,7 +18,7 @@ This package provides a number of functions to simulate restriction enzyme diges
 Maintainer: Olivier Lepais <olepais@st-pee.inra.fr>
 }
 \references{
-Lepais O & Weir JT. 2014. SimRAD: an R package for simulation-based prediction of the number of loci expected in RADseq and similar genotyping by sequencing approaches. Molecular Ecology Resources. DOI: 10.1111/1755-0998.12273.
+Lepais O & Weir JT. 2014. SimRAD: an R package for simulation-based prediction of the number of loci expected in RADseq and similar genotyping by sequencing approaches. Molecular Ecology Resources, 14, 1314-1321. DOI: 10.1111/1755-0998.12273.
 }
 
 \keyword{ package }

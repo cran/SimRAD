@@ -54,7 +54,7 @@ Restriction site with alternative bases such as ApeKI used for GBS by Elshire et
 A vector of DNA fragments resulting from the digestion.
 }
 \references{
-Lepais O & Weir JT. 2014. SimRAD: an R package for simulation-based prediction of the number of loci expected in RADseq and similar genotyping by sequencing approaches. Molecular Ecology Resources. DOI: 10.1111/1755-0998.12273.\cr\cr
+Lepais O & Weir JT. 2014. SimRAD: an R package for simulation-based prediction of the number of loci expected in RADseq and similar genotyping by sequencing approaches. Molecular Ecology Resources, 14, 1314-1321. DOI: 10.1111/1755-0998.12273.\cr\cr
 Baird et al. 2008. Rapid SNP discovery and genetic mapping using sequenced RAD markers. PLoS ONE 3: e3376. doi:10.1371/journal.pone.0003376 \cr\cr
 Elshire et al. 2011. A robust, simple Genotyping-By-Sequencing (GBS) approach for high diversity species. PLoS ONE 6: e19379. doi:10.1371/journal.pone.0019379 \cr\cr
 Peterson et al. 2012. Double Digest RADseq: an inexpensive method for de novo SNP discovery and genotyping in model and non-model species. PLoS ONE 7: e37135. doi:10.1371/journal.pone.0037135 \cr\cr

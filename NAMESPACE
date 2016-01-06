@@ -1,2 +1,4 @@
-import(Biostrings, ShortRead)
+import(Biostrings, ShortRead, zlibbioc)
 exportPattern("^[[:alpha:]]+")
+importFrom("graphics", "hist", "text")
+importFrom("stats", "na.action", "na.omit")

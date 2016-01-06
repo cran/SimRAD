@@ -33,7 +33,7 @@ Size selection is usually performed after adaptator ligation in real life, but a
 A vector of DNA fragment sequences.
 }
 \references{
-Lepais O & Weir JT. 2014. SimRAD: an R package for simulation-based prediction of the number of loci expected in RADseq and similar genotyping by sequencing approaches. Molecular Ecology Resources. DOI: 10.1111/1755-0998.12273. \cr\cr
+Lepais O & Weir JT. 2014. SimRAD: an R package for simulation-based prediction of the number of loci expected in RADseq and similar genotyping by sequencing approaches. Molecular Ecology Resources, 14, 1314-1321. DOI: 10.1111/1755-0998.12273. \cr\cr
 Peterson et al. 2012. Double Digest RADseq: an inexpensive method for de novo SNP discovery and genotyping in model and non-model species. PLoS ONE 7: e37135. doi:10.1371/journal.pone.0037135 \cr\cr
 Stolle & Moritz 2013. RESTseq - Efficient benchtop population genomics with RESTriction fragment SEQuencing. PLoS ONE 8: e63960. doi:10.1371/journal.pone.0063960 \cr\cr
 Toonen et al. 2013. ezRAD: a simplified method for genomic genotyping in non-model organisms. PeerJ 1:e203 http://dx.doi.org/10.7717/peerj.203
